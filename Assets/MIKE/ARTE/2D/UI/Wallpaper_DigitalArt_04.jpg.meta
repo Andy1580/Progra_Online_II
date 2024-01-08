@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: b185272387c598744b56053d57943921
+guid: 509727ebbc08ea046a857d165b5e273d
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -4669474893064239519
-    second: tf-multiplayer-concept_0
+      213: 8523324481860112239
+    second: Wallpaper_DigitalArt_04_0
   externalObjects: {}
   serializedVersion: 12
   mipmaps:
@@ -98,13 +98,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: tf-multiplayer-concept_0
+      name: Wallpaper_DigitalArt_04_0
       rect:
         serializedVersion: 2
         x: 0
         y: 0
-        width: 1400
-        height: 580
+        width: 3840
+        height: 2160
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -112,8 +112,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 1660d4f1351b23fb0800000000000000
-      internalID: -4669474893064239519
+      spriteID: f6f89ae257ee84670800000000000000
+      internalID: 8523324481860112239
       vertices: []
       indices: 
       edges: []
@@ -128,8 +128,7 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable:
-      tf-multiplayer-concept_0: -4669474893064239519
+    nameFileIdTable: {}
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

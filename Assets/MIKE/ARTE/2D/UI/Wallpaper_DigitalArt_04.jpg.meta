@@ -128,7 +128,8 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Wallpaper_DigitalArt_04_0: 8523324481860112239
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

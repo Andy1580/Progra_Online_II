@@ -95,24 +95,24 @@ public class ControlLobby : MonoBehaviourPunCallbacks
         //Si no hay ninguna sala abierta ...
         if (PhotonNetwork.CountOfRooms == 0)
         {
-            try
-            {
                 //Tienen que importar Photon.Realtime;
                 var config = new RoomOptions() { MaxPlayers = 8 };
 
                 //Creamos la sala
-                PhotonNetwork.CreateRoom("XP", config);
-            }
-            catch
-            {
-                notificacion.text = "! Problema al crear sala";
-            }
+                bool conectado = PhotonNetwork.CreateRoom("XP", config);
+
+                if (!conectado)
+                    notificacion.text = "! Problema al crear sala";
         }
 
         //Si ya hay una sala creada
         else
         {
-            PhotonNetwork.JoinRoom("XP");
+            //Unirnos a la sala XP
+            bool conectado = PhotonNetwork.JoinRoom("XP");
+
+            if (!conectado)
+                notificacion.text = "! No se pudo unir a la sala";
         }
 
     }

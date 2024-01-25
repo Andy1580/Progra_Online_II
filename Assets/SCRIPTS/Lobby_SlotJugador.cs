@@ -6,6 +6,7 @@ using TMPro;
 
 public class Lobby_SlotJugador : MonoBehaviour
 {
+
     [SerializeField] private TMP_Text nickname;
 
     private Player _player;
@@ -19,4 +20,5 @@ public class Lobby_SlotJugador : MonoBehaviour
             nickname.text = value.NickName;
         }
     }
+
 }

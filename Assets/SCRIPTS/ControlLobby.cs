@@ -92,6 +92,8 @@ public class ControlLobby : MonoBehaviourPunCallbacks
         //Asignamos nuestro nickname online
         PhotonNetwork.NickName = nickname;
 
+        notificacion.text = "Conectando a la sala ...";
+
         //Si no hay ninguna sala abierta ...
         if (PhotonNetwork.CountOfRooms == 0)
         {
@@ -123,6 +125,8 @@ public class ControlLobby : MonoBehaviourPunCallbacks
     #region PANEL SELECCION
 
     [SerializeField] private GameObject panelSeleccion;
+    [SerializeField] private Transform panelJugadores;
+    [SerializeField] private Lobby_SlotJugador pfSlotJugador;
 
     private void Awake_Seleccion()
     {

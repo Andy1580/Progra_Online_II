@@ -125,10 +125,18 @@ public class ControlLobby : MonoBehaviourPunCallbacks
     #region PANEL SELECCION
 
     [SerializeField] private GameObject panelSeleccion;
-    [SerializeField] private Transform panelJugadores;
-    [SerializeField] private Lobby_SlotJugador pfSlotJugador;
-
+   
     private void Awake_Seleccion()
+    {
+
+
+
+    }
+
+    #region PHOTON
+
+    //Este metodo solo se ejecuta quien creo la sala, antes que OnJoinedRoom
+    public override void OnCreatedRoom()
     {
 
 
@@ -145,11 +153,58 @@ public class ControlLobby : MonoBehaviourPunCallbacks
         panelInicio.SetActive(false);
         panelSeleccion.SetActive(true);
 
+        Inicializar_SlotsJugador();
+
     }
 
+    //Este metodo se ejecuta cuando un jugador entra a la sala
+    public override void OnPlayerEnteredRoom(Player newPlayer)
+    {
+
+        //Cuando se una un nuevo jugador a la sala, se creara el Slot
+        Crear_SlotJugador(newPlayer);
+
+    }
+
+    #endregion PHOTON
+
+    #region PANEL SLOTS JUGADOR
+
+    [SerializeField] private Transform panelJugadores;
+    [SerializeField] private Lobby_SlotJugador pfSlotJugador;
+    private Dictionary<Player, Lobby_SlotJugador> slotsJugador;
+
+    private void Inicializar_SlotsJugador()
+    {
+
+        //Inicializamos el Diccionario
+        slotsJugador = new Dictionary<Player, Lobby_SlotJugador>();
+
+        //Obtenemos los Players que hay en la sala
+        var jugadorEnSala = PhotonNetwork.CurrentRoom.Players;
+
+        foreach(Player player in jugadorEnSala.Values)
+        {
+            Crear_SlotJugador(player);
+        }
+
+    }
+
+    private void Crear_SlotJugador(Player player)
+    {
+        //Instanciamos el slot en el Panel Jugadores
+        Lobby_SlotJugador slot = Instantiate(pfSlotJugador, panelJugadores);
+
+        //Le asignamos su Player
+        slot.Player = player;
+
+        //Le guardamos en el diccionario
+        slotsJugador[player] = slot;
+
+    }
+
+    #endregion PANEL SLOTS JUGADOR
+
     #endregion PANEL SELECCION
-
-
-
 
 }

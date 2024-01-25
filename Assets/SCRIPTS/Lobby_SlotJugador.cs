@@ -11,7 +11,7 @@ public class Lobby_SlotJugador : MonoBehaviour
 
     private Player _player;
 
-    public Player player
+    public Player Player
     {
         get => _player;
         set

@@ -166,6 +166,13 @@ public class ControlLobby : MonoBehaviourPunCallbacks
 
     }
 
+    public override void OnPlayerLeftRoom(Player otherPlayer)
+    {
+
+        Eliminar_Jugador(otherPlayer);
+
+    }
+
     #endregion PHOTON
 
     #region PANEL SLOTS JUGADOR
@@ -200,6 +207,18 @@ public class ControlLobby : MonoBehaviourPunCallbacks
 
         //Le guardamos en el diccionario
         slotsJugador[player] = slot;
+
+    }
+
+    private void Eliminar_Jugador(Player player)
+    {
+
+        //Eliminamos el slot de la UI
+        Destroy(slotsJugador[player].gameObject);
+
+
+        //Eliminamos el par del diccionario
+        slotsJugador.Remove(player);
 
     }
 

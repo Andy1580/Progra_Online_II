@@ -139,7 +139,7 @@ public class ControlLobby : MonoBehaviourPunCallbacks
     public override void OnCreatedRoom()
     {
 
-
+        InicializarChat();
 
     }
 
@@ -223,6 +223,55 @@ public class ControlLobby : MonoBehaviourPunCallbacks
     }
 
     #endregion PANEL SLOTS JUGADOR
+
+    #region Chat
+
+    [Header("\nCHAT")]
+    [SerializeField] private TMP_InputField inputMensaje;
+    [SerializeField] private Button botonEnviar;
+    [SerializeField] private RectTransform contenct;
+    [SerializeField] private TMP_Text chatTexto;
+
+    private void InicializarChat()
+    {
+
+        //Obtenemos las propiedades de la sala
+        var propiedades = PhotonNetwork.CurrentRoom.CustomProperties;
+
+        //Creamos una nueva entrada
+        propiedades["Chat"] = "INICIO DE CHAT";
+
+        //Aplicamos los cambios
+        PhotonNetwork.CurrentRoom.SetCustomProperties(propiedades);
+
+    }
+
+    private void EnviarMensaje()
+    {
+
+        //Obtenemos el mensaje del Input Field
+        string mensaje = inputMensaje.text;
+
+        //Verificamos que el mensaje no este vacio
+        if (mensaje == string.Empty)
+            return;
+
+        //Obtenemos las porpiedades de la sala
+        var propiedades = PhotonNetwork.CurrentRoom.CustomProperties;
+
+        //Obtenemos el valor del chat en una string
+        string chat = propiedades["Chat"].ToString();
+
+        //Concatenamos nuestro nuevo mensaje
+        chat += $"\n{PhotonNetwork.NickName}: {mensaje}";
+
+        //Aplicamos los cambios a las propiedades
+        //Osea ... enviamos nuestro nuevo mensaje
+        PhotonNetwork.CurrentRoom.SetCustomProperties(propiedades);
+
+    }
+
+    #endregion Chat
 
     #endregion PANEL SELECCION
 

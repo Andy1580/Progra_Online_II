@@ -5,6 +5,7 @@ using Photon.Pun;
 using TMPro;
 using UnityEngine.UI;
 using Photon.Realtime;
+using System;
 
 public class ControlLobby : MonoBehaviourPunCallbacks
 {
@@ -288,6 +289,9 @@ public class ControlLobby : MonoBehaviourPunCallbacks
         //Osea ... enviamos nuestro nuevo mensaje
         PhotonNetwork.CurrentRoom.SetCustomProperties(propiedades);
 
+        //En cuanto envie el mensaje, limpie el InputField
+        inputMensaje.text = String.Empty;
+
     }
 
     private void ActualizarChat()
@@ -305,6 +309,16 @@ public class ControlLobby : MonoBehaviourPunCallbacks
 
         //Asignamos el texto en pantalla
         chatTexto.text = chat;
+
+    }
+
+    private void Update()
+    {
+
+        if (Input.GetKeyDown(KeyCode.Return))
+        {
+            EnviarMensaje();
+        }
 
     }
 

@@ -150,10 +150,15 @@ public class ControlLobby : MonoBehaviourPunCallbacks
         //Sincronizamos la escena
         PhotonNetwork.AutomaticallySyncScene = true;
 
+        //Cambiar de Pantalla
         panelInicio.SetActive(false);
         panelSeleccion.SetActive(true);
 
+        //Genera los slots de los jugadores en la sala
         Inicializar_SlotsJugador();
+
+        //Asignarle la funcion al boton
+        botonEnviar.onClick.AddListener(EnviarMensaje);
 
     }
 
@@ -161,15 +166,26 @@ public class ControlLobby : MonoBehaviourPunCallbacks
     public override void OnPlayerEnteredRoom(Player newPlayer)
     {
 
+        print(newPlayer);
+
         //Cuando se una un nuevo jugador a la sala, se creara el Slot
         Crear_SlotJugador(newPlayer);
 
     }
 
+    //Este metodo se ejecuta cuando un jugador deja la sala
     public override void OnPlayerLeftRoom(Player otherPlayer)
     {
 
         Eliminar_Jugador(otherPlayer);
+
+    }
+
+    //Este metodo se ejecuta cuando cambias las propiedades de la sala
+    public override void OnRoomPropertiesUpdate(ExitGames.Client.Photon.Hashtable propertiesThatChanged)
+    {
+
+        ActualizarChat();
 
     }
 
@@ -265,9 +281,30 @@ public class ControlLobby : MonoBehaviourPunCallbacks
         //Concatenamos nuestro nuevo mensaje
         chat += $"\n{PhotonNetwork.NickName}: {mensaje}";
 
+        //Cambiamos el value de la Kay Chat
+        propiedades["Chat"] = chat;
+
         //Aplicamos los cambios a las propiedades
         //Osea ... enviamos nuestro nuevo mensaje
         PhotonNetwork.CurrentRoom.SetCustomProperties(propiedades);
+
+    }
+
+    private void ActualizarChat()
+    {
+
+        //Obtenemos las propiedades de Photon
+        var propiedades = PhotonNetwork.CurrentRoom.CustomProperties;
+
+        //Si no existe la Key Chat
+        if (!propiedades.ContainsKey("Chat"))
+            return;
+
+        //Obtenemos la string de Chat
+        string chat = propiedades["Chat"].ToString();
+
+        //Asignamos el texto en pantalla
+        chatTexto.text = chat;
 
     }
 

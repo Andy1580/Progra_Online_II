@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: 23d77fdd7a5e48f459b6a1d5161c5d26
+guid: 037a76d2c952b3b4e840ece94d5001b8
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -2083686949151957201
-    second: Boton_Inicio_0
+      213: -5762449630836949318
+    second: Icono_Peleador_0
   externalObjects: {}
   serializedVersion: 12
   mipmaps:
@@ -98,22 +98,22 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Boton_Inicio_0
+      name: Icono_Peleador_0
       rect:
         serializedVersion: 2
-        x: 1210
-        y: 978
-        width: 1420
-        height: 204
+        x: 0
+        y: 0
+        width: 868
+        height: 868
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
-      tessellationDetail: 0
+      tessellationDetail: -1
       bones: []
-      spriteID: ec5df009150ec2a439b049fd4fd523e8
-      internalID: -1685258436
+      spriteID: abef1ed679aa700b0800000000000000
+      internalID: -5762449630836949318
       vertices: []
       indices: 
       edges: []
@@ -121,7 +121,7 @@ TextureImporter:
     outline: []
     physicsShape: []
     bones: []
-    spriteID: e3dfa98eaf516e64ebd67153439f936c
+    spriteID: 
     internalID: 0
     vertices: []
     indices: 
@@ -129,7 +129,7 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      Boton_Inicio_0: -1685258436
+      Panel_0: -1198477067713850731
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

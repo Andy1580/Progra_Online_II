@@ -34,7 +34,7 @@ public class ControlLobby : MonoBehaviourPunCallbacks
     private void Start()
     {
 
-        notificacion.text = "Conectandose a Photon";
+        notificacion.text = "CONECTANDOSE A PHOTON";
         PhotonNetwork.ConnectUsingSettings();
 
     }
@@ -43,7 +43,7 @@ public class ControlLobby : MonoBehaviourPunCallbacks
     public override void OnConnectedToMaster()
     {
 
-        notificacion.text = "Entrando al Lobby ...";
+        notificacion.text = "ENTRANDO AL LOBBY...";
 
         //Enviarnos al lobby
         PhotonNetwork.JoinLobby();
@@ -79,21 +79,21 @@ public class ControlLobby : MonoBehaviourPunCallbacks
         //Revisar que el string no este vacio
         if (nickname == string.Empty)
         {
-            notificacion.text = "! El nickname esta vacio";
+            notificacion.text = "¡EL NICKNAME ESTA VACIO!";
             return;
         }
 
         //Revisamos que el nickname no supere los 10 caracteres
         if (nickname.Length > 10)
         {
-            notificacion.text = "! El nickname no puede tener mas de 10 caracteres";
+            notificacion.text = "¡EL NICKNAME NO PUEDE TENER MAS DE 10 CARACTERES!";
             return;
         }
 
         //Asignamos nuestro nickname online
         PhotonNetwork.NickName = nickname;
 
-        notificacion.text = "Conectando a la sala ...";
+        notificacion.text = "CONECTANDO A LA SALA...";
 
         //Si no hay ninguna sala abierta ...
         if (PhotonNetwork.CountOfRooms == 0)
@@ -105,7 +105,7 @@ public class ControlLobby : MonoBehaviourPunCallbacks
                 bool conectado = PhotonNetwork.CreateRoom("XP", config);
 
                 if (!conectado)
-                    notificacion.text = "! Problema al crear sala";
+                    notificacion.text = "¡PROBLEMA AL CREAR LA SALA!";
         }
 
         //Si ya hay una sala creada
@@ -115,7 +115,7 @@ public class ControlLobby : MonoBehaviourPunCallbacks
             bool conectado = PhotonNetwork.JoinRoom("XP");
 
             if (!conectado)
-                notificacion.text = "! No se pudo unir a la sala";
+                notificacion.text = "¡NO SE PUDO UNIR A LA SALA!";
         }
 
     }

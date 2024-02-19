@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: 87ea1b857c007ba418760e90bbf90452
+guid: 356f42aa89f7d5346a6f6cf4410c8956
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -6240569419559578689
-    second: SoldierIcon_0
+      213: -855298285791758126
+    second: 1_0
   externalObjects: {}
   serializedVersion: 12
   mipmaps:
@@ -98,13 +98,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: SoldierIcon_0
+      name: 1_0
       rect:
         serializedVersion: 2
-        x: 0
+        x: 13
         y: 0
-        width: 412
-        height: 459
+        width: 360
+        height: 536
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -112,8 +112,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 6132311eb5b4e41439ae4b8b9123affe
-      internalID: -1865164941
+      spriteID: 7411f4c74bd7f3d4e9a52d5685acaab9
+      internalID: 2083191041
       vertices: []
       indices: 
       edges: []
@@ -121,7 +121,7 @@ TextureImporter:
     outline: []
     physicsShape: []
     bones: []
-    spriteID: 9c874739e90d21d409ca581bd9413721
+    spriteID: 330f474dbcf105040b02b3487e045d60
     internalID: 0
     vertices: []
     indices: 
@@ -129,7 +129,7 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      SoldierIcon_0: -1865164941
+      1_0: 2083191041
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

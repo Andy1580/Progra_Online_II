@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: b0b30af6270cbff4f8de00de82f8210e
+guid: bcd5d47eeb877aa4c82cff0616b767b1
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -5898572833816749705
-    second: Marco_0
+      213: 2914397532842701300
+    second: kgs_0
   externalObjects: {}
   serializedVersion: 12
   mipmaps:
@@ -98,13 +98,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Marco_0
+      name: kgs_0
       rect:
         serializedVersion: 2
         x: 0
         y: 0
-        width: 187
-        height: 243
+        width: 1920
+        height: 1280
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -112,8 +112,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: bdf7362682868164eaea94d33852cd1e
-      internalID: 364268066
+      spriteID: b512030fd45213e40ace3d45e5df47ac
+      internalID: -2032123556
       vertices: []
       indices: 
       edges: []
@@ -121,7 +121,7 @@ TextureImporter:
     outline: []
     physicsShape: []
     bones: []
-    spriteID: 0310391109ae0ab489e434da26cc42eb
+    spriteID: 26f58ef8c19a9f54c95139b45dbc0ebe
     internalID: 0
     vertices: []
     indices: 
@@ -129,7 +129,7 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      Marco_0: 364268066
+      kgs_0: -2032123556
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

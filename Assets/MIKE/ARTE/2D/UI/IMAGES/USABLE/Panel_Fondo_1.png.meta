@@ -1,10 +1,13 @@
 fileFormatVersion: 2
-guid: 4440a2ff57213c046b0f21fb2a3c4ef2
+guid: 41133fe6382e38d4f99f7ec054b46316
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 3162669625569538191
-    second: Boton_Nickname_0
+      213: -1083744528403239913
+    second: Panel_Fondo_1_0
+  - first:
+      213: -6244936516811901262
+    second: Panel_Fondo_1_1
   externalObjects: {}
   serializedVersion: 12
   mipmaps:
@@ -98,13 +101,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Boton_Nickname_0
+      name: Panel_Fondo_1_0
       rect:
         serializedVersion: 2
         x: 0
         y: 0
-        width: 2184
-        height: 359
+        width: 3480
+        height: 2019
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -112,8 +115,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 91ab2aff23848b4439ac4d820a1e3fd3
-      internalID: -1368945384
+      spriteID: e9e1f3da34110224fbddb8fa045c26f3
+      internalID: 828912614
       vertices: []
       indices: 
       edges: []
@@ -121,7 +124,7 @@ TextureImporter:
     outline: []
     physicsShape: []
     bones: []
-    spriteID: a313dfa3afd49554e98145593b5ae900
+    spriteID: b98c3215f236e0247a05d974150449e3
     internalID: 0
     vertices: []
     indices: 
@@ -129,7 +132,7 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      Boton_Nickname_0: -1368945384
+      Panel_Fondo_1_0: 828912614
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: 2460279df4e6f9f4daf339145b0f3161
+guid: 8d1f076dfed00614497642d5a3de7004
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -1476097260452220252
-    second: Fondo_2_0
+      213: -2083686949151957201
+    second: Boton_Inicio_0
   externalObjects: {}
   serializedVersion: 12
   mipmaps:
@@ -98,22 +98,22 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Fondo_2_0
+      name: Boton_Inicio_0
       rect:
         serializedVersion: 2
         x: 0
         y: 0
-        width: 900
-        height: 506
+        width: 1667
+        height: 237
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 4a271d0cc59d38be0800000000000000
-      internalID: -1476097260452220252
+      spriteID: fcbf53b04b2f1e3489700fc4a726b48f
+      internalID: 127572173
       vertices: []
       indices: 
       edges: []
@@ -121,7 +121,7 @@ TextureImporter:
     outline: []
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: 0362850ba2ce9ac4bb5c312e38e232bb
     internalID: 0
     vertices: []
     indices: 
@@ -129,7 +129,7 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      Fondo_2_0: -1476097260452220252
+      Boton_Inicio_0: 127572173
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

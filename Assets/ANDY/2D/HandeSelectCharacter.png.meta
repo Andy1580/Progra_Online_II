@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: 4e560b8cce25e7f46a3d68e5b9a6e471
+guid: 41c8c1a0b58b68d43a5dbf439ddf8459
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -7377295934022830490
-    second: Background_1_0
+      213: -4062972818427376939
+    second: HandeSelectCharacter_0
   externalObjects: {}
   serializedVersion: 12
   mipmaps:
@@ -98,13 +98,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Background_1_0
+      name: HandeSelectCharacter_0
       rect:
         serializedVersion: 2
         x: 0
         y: 0
-        width: 1920
-        height: 1080
+        width: 735
+        height: 862
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -112,8 +112,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 666b2a14f649e9990800000000000000
-      internalID: -7377295934022830490
+      spriteID: 5da81998fbb6d97c0800000000000000
+      internalID: -4062972818427376939
       vertices: []
       indices: 
       edges: []
@@ -128,8 +128,7 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable:
-      Background_1_0: -7377295934022830490
+    nameFileIdTable: {}
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: 4e560b8cce25e7f46a3d68e5b9a6e471
+guid: 6d4937747af0c9e479afceec57e32404
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -7377295934022830490
-    second: Background_1_0
+      213: 1588926972003199086
+    second: PlacaPlayer_0
   externalObjects: {}
   serializedVersion: 12
   mipmaps:
@@ -98,22 +98,22 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Background_1_0
+      name: PlacaPlayer_0
       rect:
         serializedVersion: 2
         x: 0
         y: 0
-        width: 1920
-        height: 1080
+        width: 439
+        height: 500
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 666b2a14f649e9990800000000000000
-      internalID: -7377295934022830490
+      spriteID: a0147e79a79edc042ac301ef27e28d53
+      internalID: -1774441344
       vertices: []
       indices: 
       edges: []
@@ -121,7 +121,7 @@ TextureImporter:
     outline: []
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: 53f161ace84366f45bf164ed32b7f80c
     internalID: 0
     vertices: []
     indices: 
@@ -129,7 +129,7 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      Background_1_0: -7377295934022830490
+      PlacaPlayer_0: -1774441344
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

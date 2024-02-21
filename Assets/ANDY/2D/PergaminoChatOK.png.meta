@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: 4e560b8cce25e7f46a3d68e5b9a6e471
+guid: ad5d4a95010e5bc4d8b7df3c24924261
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -7377295934022830490
-    second: Background_1_0
+      213: 1692905400023474386
+    second: PergaminoChatOK_0
   externalObjects: {}
   serializedVersion: 12
   mipmaps:
@@ -98,22 +98,22 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Background_1_0
+      name: PergaminoChatOK_0
       rect:
         serializedVersion: 2
         x: 0
         y: 0
-        width: 1920
-        height: 1080
+        width: 780
+        height: 1018
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 666b2a14f649e9990800000000000000
-      internalID: -7377295934022830490
+      spriteID: 449afcff300f87b42aa0d557e4b16f4c
+      internalID: -1255946021
       vertices: []
       indices: 
       edges: []
@@ -121,7 +121,7 @@ TextureImporter:
     outline: []
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: 61615d17206159d44a19ee05e56414e7
     internalID: 0
     vertices: []
     indices: 
@@ -129,7 +129,7 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      Background_1_0: -7377295934022830490
+      PergaminoChatOK_0: -1255946021
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

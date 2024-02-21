@@ -1,10 +1,13 @@
 fileFormatVersion: 2
-guid: 4e560b8cce25e7f46a3d68e5b9a6e471
+guid: 2ef5788aa48b8984eac3fd8f14d4ba00
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -7377295934022830490
-    second: Background_1_0
+      213: 5955663845113598218
+    second: Select Your Character_0
+  - first:
+      213: 3357337110801634488
+    second: Select Your Character_1
   externalObjects: {}
   serializedVersion: 12
   mipmaps:
@@ -98,22 +101,22 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Background_1_0
+      name: Select Your Character_0
       rect:
         serializedVersion: 2
         x: 0
         y: 0
-        width: 1920
-        height: 1080
+        width: 1229
+        height: 156
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 666b2a14f649e9990800000000000000
-      internalID: -7377295934022830490
+      spriteID: c307d2d6959595a4081c6671698338b2
+      internalID: 304935691
       vertices: []
       indices: 
       edges: []
@@ -121,7 +124,7 @@ TextureImporter:
     outline: []
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: 400fbc22acefd3a4a97dde6b57aa55b4
     internalID: 0
     vertices: []
     indices: 
@@ -129,7 +132,7 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      Background_1_0: -7377295934022830490
+      Select Your Character_0: 304935691
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

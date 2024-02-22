@@ -128,7 +128,8 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Pikachu_0: 58068862916304467
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

@@ -128,7 +128,8 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Megaman_0: 2809528711596874629
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

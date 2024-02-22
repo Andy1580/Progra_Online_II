@@ -128,7 +128,8 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Kirby_0: -8426472227066048371
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

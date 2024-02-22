@@ -128,7 +128,8 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Sonic_0: 7804126658106156513
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

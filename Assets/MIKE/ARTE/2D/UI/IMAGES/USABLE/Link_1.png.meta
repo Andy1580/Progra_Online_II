@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: b1ef69e82e4ab8541b008dfca07eab2a
+guid: a5c6a8f1f0de50841bc35e821da65eca
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -1041126138534422539
-    second: HandeSelectMode_0
+      213: 6552532474071069614
+    second: Link_1_0
   externalObjects: {}
   serializedVersion: 12
   mipmaps:
@@ -98,22 +98,22 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: HandeSelectMode_0
+      name: Link_1_0
       rect:
         serializedVersion: 2
         x: 0
         y: 0
-        width: 862
-        height: 735
+        width: 445
+        height: 510
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 5f7184a0b4d2d81f0800000000000000
-      internalID: -1041126138534422539
+      spriteID: f885a613dca721b46b150a0c3db3572a
+      internalID: 815410899
       vertices: []
       indices: 
       edges: []
@@ -121,7 +121,7 @@ TextureImporter:
     outline: []
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: 6ad3c9907e1ecd449a8d58923d6db389
     internalID: 0
     vertices: []
     indices: 
@@ -129,7 +129,7 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      HandeSelectMode_0: -1041126138534422539
+      Link_1_0: 815410899
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

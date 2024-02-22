@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: b1ef69e82e4ab8541b008dfca07eab2a
+guid: 206223cc97136f14db6c13f7e2135c02
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -1041126138534422539
-    second: HandeSelectMode_0
+      213: -4075108277234479603
+    second: Pacman_1_0
   externalObjects: {}
   serializedVersion: 12
   mipmaps:
@@ -98,22 +98,22 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: HandeSelectMode_0
+      name: Pacman_1_0
       rect:
         serializedVersion: 2
         x: 0
         y: 0
-        width: 862
-        height: 735
+        width: 485
+        height: 462
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 5f7184a0b4d2d81f0800000000000000
-      internalID: -1041126138534422539
+      spriteID: a8868eb2cfecb6a44819e2cfe74f6cff
+      internalID: -662664316
       vertices: []
       indices: 
       edges: []
@@ -121,7 +121,7 @@ TextureImporter:
     outline: []
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: bcf145a8118c61f4da2b0497e92ddb77
     internalID: 0
     vertices: []
     indices: 
@@ -129,7 +129,7 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      HandeSelectMode_0: -1041126138534422539
+      Pacman_1_0: -662664316
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

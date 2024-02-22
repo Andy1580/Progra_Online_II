@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: b1ef69e82e4ab8541b008dfca07eab2a
+guid: 73022e7db775a3f45a0fa57e70576a6e
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -1041126138534422539
-    second: HandeSelectMode_0
+      213: 532736930212206454
+    second: Megaman_1_0
   externalObjects: {}
   serializedVersion: 12
   mipmaps:
@@ -98,22 +98,22 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: HandeSelectMode_0
+      name: Megaman_1_0
       rect:
         serializedVersion: 2
         x: 0
         y: 0
-        width: 862
-        height: 735
+        width: 371
+        height: 422
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 5f7184a0b4d2d81f0800000000000000
-      internalID: -1041126138534422539
+      spriteID: f1c59d373add18647b5653dd9a13c961
+      internalID: -98945102
       vertices: []
       indices: 
       edges: []
@@ -121,7 +121,7 @@ TextureImporter:
     outline: []
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: aa34540be8497cd4395a38eb4cfa455f
     internalID: 0
     vertices: []
     indices: 
@@ -129,7 +129,7 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      HandeSelectMode_0: -1041126138534422539
+      Megaman_1_0: -98945102
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

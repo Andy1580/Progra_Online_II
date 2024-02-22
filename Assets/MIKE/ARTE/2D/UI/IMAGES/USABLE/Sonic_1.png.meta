@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: b1ef69e82e4ab8541b008dfca07eab2a
+guid: 980f7ddcd42b9b04e8d004c2f53bca64
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -1041126138534422539
-    second: HandeSelectMode_0
+      213: -2428036891897038311
+    second: Sonic_1_0
   externalObjects: {}
   serializedVersion: 12
   mipmaps:
@@ -98,22 +98,22 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: HandeSelectMode_0
+      name: Sonic_1_0
       rect:
         serializedVersion: 2
         x: 0
         y: 0
-        width: 862
-        height: 735
+        width: 453
+        height: 460
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 5f7184a0b4d2d81f0800000000000000
-      internalID: -1041126138534422539
+      spriteID: bd98514853d562b4ab815a8f62673f24
+      internalID: 106582814
       vertices: []
       indices: 
       edges: []
@@ -121,7 +121,7 @@ TextureImporter:
     outline: []
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: e6c753112ac1abf4f951ee474046893f
     internalID: 0
     vertices: []
     indices: 
@@ -129,7 +129,7 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      HandeSelectMode_0: -1041126138534422539
+      Sonic_1_0: 106582814
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

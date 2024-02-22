@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: b1ef69e82e4ab8541b008dfca07eab2a
+guid: 93e0a97719388fc4f866ac575f7195cb
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -1041126138534422539
-    second: HandeSelectMode_0
+      213: -689936702405452922
+    second: Kirby_1_0
   externalObjects: {}
   serializedVersion: 12
   mipmaps:
@@ -98,22 +98,22 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: HandeSelectMode_0
+      name: Kirby_1_0
       rect:
         serializedVersion: 2
         x: 0
         y: 0
-        width: 862
-        height: 735
+        width: 355
+        height: 468
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 5f7184a0b4d2d81f0800000000000000
-      internalID: -1041126138534422539
+      spriteID: 0425906f3833f734a9954d74c1da75d9
+      internalID: 335649861
       vertices: []
       indices: 
       edges: []
@@ -121,7 +121,7 @@ TextureImporter:
     outline: []
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: eae4e6c9f4fd6f941a7f8bae5a60cb1d
     internalID: 0
     vertices: []
     indices: 
@@ -129,7 +129,7 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      HandeSelectMode_0: -1041126138534422539
+      Kirby_1_0: 335649861
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

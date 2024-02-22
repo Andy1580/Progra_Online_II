@@ -6,6 +6,10 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
-    path: Assets/Scenes/SampleScene.unity
-    guid: 8c9cfa26abfee488c85f1582747f6a02
+    path: Assets/DIEGO/INICIO.unity
+    guid: 70eef5d79d965b447ae7bb99bbf695bf
+  - enabled: 1
+    path: Assets/DIEGO/DIEGO.unity
+    guid: 0d39785b690460c408da923fb9dad0b9
   m_configObjects: {}
+  m_UseUCBPForAssetBundles: 0

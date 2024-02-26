@@ -6,6 +6,7 @@ using TMPro;
 using UnityEngine.UI;
 using Photon.Realtime;
 using System;
+using System.Linq;
 
 public class ControlLobby : MonoBehaviourPunCallbacks
 {
@@ -309,6 +310,18 @@ public class ControlLobby : MonoBehaviourPunCallbacks
 
         //Asignamos el texto en pantalla
         chatTexto.text = chat;
+
+        int contectOffset = 25;
+        int alturaLineaTexto = 34;
+
+        //Importar la libreria: using System.Linq;
+        int espacio = chat.Count(car => car == '\n');
+
+        //Calculamos la altura segun los saltos de linea
+        float altura = contectOffset + (alturaLineaTexto * espacio);
+
+        //Crecemos el Conect
+        contenct.sizeDelta = new Vector2(contenct.sizeDelta.x, altura);
 
     }
 

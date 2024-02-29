@@ -506,7 +506,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 1}
   m_AnchorMax: {x: 0.5, y: 1}
-  m_AnchoredPosition: {x: -374.9541, y: 0.00027573944}
+  m_AnchoredPosition: {x: -374.9541, y: 0.00023022344}
   m_SizeDelta: {x: 724.449, y: 45}
   m_Pivot: {x: 0, y: 1}
 --- !u!1 &537336900
@@ -885,8 +885,9 @@ MonoBehaviour:
   pfSlotJugador: {fileID: 6840726894786919403, guid: 41b43b0e326822345804e0e991c154e0, type: 3}
   inputMensaje: {fileID: 1036504007}
   botonEnviar: {fileID: 1177681791}
-  contenct: {fileID: 519180688}
+  content: {fileID: 519180688}
   chatTexto: {fileID: 1371633640}
+  scrollView: {fileID: 407112001}
 --- !u!1 &637947405
 GameObject:
   m_ObjectHideFlags: 0
@@ -2560,7 +2561,7 @@ MonoBehaviour:
   m_HandleRect: {fileID: 637947406}
   m_Direction: 2
   m_Value: 0
-  m_Size: 0.99959826
+  m_Size: 1
   m_NumberOfSteps: 0
   m_OnValueChanged:
     m_PersistentCalls:

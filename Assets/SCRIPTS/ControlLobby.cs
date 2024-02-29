@@ -247,8 +247,9 @@ public class ControlLobby : MonoBehaviourPunCallbacks
     [Header("\nCHAT")]
     [SerializeField] private TMP_InputField inputMensaje;
     [SerializeField] private Button botonEnviar;
-    [SerializeField] private RectTransform contenct;
+    [SerializeField] private RectTransform content;
     [SerializeField] private TMP_Text chatTexto;
+    [SerializeField] private RectTransform scrollView;
 
     private void InicializarChat()
     {
@@ -293,6 +294,9 @@ public class ControlLobby : MonoBehaviourPunCallbacks
         //En cuanto envie el mensaje, limpie el InputField
         inputMensaje.text = String.Empty;
 
+        //Focus al InputField
+        inputMensaje.ActivateInputField();
+
     }
 
     private void ActualizarChat()
@@ -311,7 +315,7 @@ public class ControlLobby : MonoBehaviourPunCallbacks
         //Asignamos el texto en pantalla
         chatTexto.text = chat;
 
-        int contectOffset = 25;
+        int contectOffset = 20;
         int alturaLineaTexto = 34;
 
         //Importar la libreria: using System.Linq;
@@ -321,7 +325,20 @@ public class ControlLobby : MonoBehaviourPunCallbacks
         float altura = contectOffset + (alturaLineaTexto * espacio);
 
         //Crecemos el Conect
-        contenct.sizeDelta = new Vector2(contenct.sizeDelta.x, altura);
+        content.sizeDelta = new Vector2(content.sizeDelta.x, altura);
+
+        //Si el Content es mas alto que el Scroll View
+        if(content.sizeDelta.y > scrollView.sizeDelta.y)
+        {
+            //Obtenemos la posicion del Content
+            Vector3 posicionContent = content.localPosition;
+
+            //Obtener la posicion inferior del chat
+            posicionContent.y = content.sizeDelta.y - scrollView.sizeDelta.y - 150;
+
+            //Establecer la posicion
+            content.localPosition = posicionContent;
+        }
 
     }
 

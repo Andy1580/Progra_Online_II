@@ -1,12 +1,14 @@
+using System;
 using System.Collections;
 using System.Collections.Generic;
-using UnityEngine;
-using Photon.Pun;
-using TMPro;
-using UnityEngine.UI;
-using Photon.Realtime;
-using System;
 using System.Linq;
+using Photon.Pun;
+using Photon.Realtime;
+using TMPro;
+using UnityEngine;
+using UnityEngine.Serialization;
+using UnityEngine.UI;
+using Hashtable = ExitGames.Client.Photon.Hashtable;
 
 public class ControlLobby : MonoBehaviourPunCallbacks
 {
@@ -28,7 +30,7 @@ public class ControlLobby : MonoBehaviourPunCallbacks
         botonIniciar.interactable = false;
 
         //Borrar la notificacion
-        notificacion.text = string.Empty;
+        notificacion.text = String.Empty;
 
     }
 
@@ -65,9 +67,9 @@ public class ControlLobby : MonoBehaviourPunCallbacks
         //Le asignamos funcion al boton
         botonIniciar.onClick.AddListener(Iniciar);
 
-        //Se puede volver a clicear el boton
+        //Se puede volver a clickear el boton
         botonIniciar.interactable = true;
-        notificacion.text = string.Empty;
+        notificacion.text = String.Empty;
         
     }
 
@@ -78,7 +80,7 @@ public class ControlLobby : MonoBehaviourPunCallbacks
         string nickname = inputNickname.text;
 
         //Revisar que el string no este vacio
-        if (nickname == string.Empty)
+        if (nickname == String.Empty)
         {
             notificacion.text = "¡El nickname esta vacio!";
             return;
@@ -184,7 +186,7 @@ public class ControlLobby : MonoBehaviourPunCallbacks
     }
 
     //Este metodo se ejecuta cuando cambias las propiedades de la sala
-    public override void OnRoomPropertiesUpdate(ExitGames.Client.Photon.Hashtable propertiesThatChanged)
+    public override void OnRoomPropertiesUpdate(Hashtable propertiesThatChanged)
     {
 
         ActualizarChat();
@@ -284,7 +286,7 @@ public class ControlLobby : MonoBehaviourPunCallbacks
         //Concatenamos nuestro nuevo mensaje
         chat += $"\n{PhotonNetwork.NickName}: {mensaje}";
 
-        //Cambiamos el value de la Kay Chat
+        //Cambiamos el value de la Key Chat
         propiedades["Chat"] = chat;
 
         //Aplicamos los cambios a las propiedades
@@ -315,7 +317,7 @@ public class ControlLobby : MonoBehaviourPunCallbacks
         //Asignamos el texto en pantalla
         chatTexto.text = chat;
 
-        int contectOffset = 20;
+        int contectOffset = 25;
         int alturaLineaTexto = 34;
 
         //Importar la libreria: using System.Linq;
@@ -334,7 +336,7 @@ public class ControlLobby : MonoBehaviourPunCallbacks
             Vector3 posicionContent = content.localPosition;
 
             //Obtener la posicion inferior del chat
-            posicionContent.y = content.sizeDelta.y - scrollView.sizeDelta.y - 150;
+            posicionContent.y = content.sizeDelta.y - scrollView.sizeDelta.y;
 
             //Establecer la posicion
             content.localPosition = posicionContent;

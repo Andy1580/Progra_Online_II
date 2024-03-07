@@ -3678,7 +3678,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 14.291687, y: -8.256287}
+  m_AnchoredPosition: {x: 14.291748, y: -8.256348}
   m_SizeDelta: {x: -349.7313, y: -312.2685}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &724168839
@@ -6499,7 +6499,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &1605875388
 RectTransform:
   m_ObjectHideFlags: 0
@@ -7838,6 +7838,63 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2109994325}
   m_CullTransparentMesh: 1
+--- !u!1001 &7036469790536171928
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 4275565258837179584, guid: bf76189ff019490438429473224d99e7, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4275565258837179584, guid: bf76189ff019490438429473224d99e7, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4275565258837179584, guid: bf76189ff019490438429473224d99e7, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4275565258837179584, guid: bf76189ff019490438429473224d99e7, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4275565258837179584, guid: bf76189ff019490438429473224d99e7, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4275565258837179584, guid: bf76189ff019490438429473224d99e7, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4275565258837179584, guid: bf76189ff019490438429473224d99e7, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4275565258837179584, guid: bf76189ff019490438429473224d99e7, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4275565258837179584, guid: bf76189ff019490438429473224d99e7, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4275565258837179584, guid: bf76189ff019490438429473224d99e7, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4298677120950427833, guid: bf76189ff019490438429473224d99e7, type: 3}
+      propertyPath: m_Name
+      value: HeroKnight_Andy
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: bf76189ff019490438429473224d99e7, type: 3}
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
   m_ObjectHideFlags: 0
@@ -7847,3 +7904,4 @@ SceneRoots:
   - {fileID: 563132826}
   - {fileID: 1605875388}
   - {fileID: 738571204}
+  - {fileID: 7036469790536171928}

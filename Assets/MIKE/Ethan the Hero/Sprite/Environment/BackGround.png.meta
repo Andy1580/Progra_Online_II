@@ -1,5 +1,12 @@
 fileFormatVersion: 2
 guid: f5dad604b7ed1c141a7dd879f4948dd0
+AssetOrigin:
+  serializedVersion: 1
+  productId: 237992
+  packageName: Ethan the Hero
+  packageVersion: 1.0
+  assetPath: Assets/Ethan the Hero/Sprite/Environment/BackGround.png
+  uploadId: 572369
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -20,10 +27,12 @@ TextureImporter:
     externalNormalMap: 0
     heightScale: 0.25
     normalMapFilter: 0
+    flipGreenChannel: 0
   isReadable: 0
   streamingMipmaps: 0
   streamingMipmapsPriority: 0
   vTOnly: 0
+  ignoreMipmapLimit: 0
   grayScaleToAlpha: 0
   generateCubemap: 6
   cubemapConvolution: 0
@@ -62,6 +71,7 @@ TextureImporter:
   textureFormatSet: 0
   ignorePngGamma: 0
   applyGammaDecoding: 0
+  swizzle: 50462976
   cookieLightType: 0
   platformSettings:
   - serializedVersion: 3
@@ -137,16 +147,9 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-  spritePackingTag: 
+    nameFileIdTable: {}
+  mipmapLimitGroupName: 
   pSDRemoveMatte: 0
-  pSDShowRemoveMatteOption: 0
   userData: 
   assetBundleName: 
   assetBundleVariant: 
-AssetOrigin:
-  serializedVersion: 1
-  productId: 237992
-  packageName: Ethan the Hero
-  packageVersion: 1.0
-  assetPath: Assets/Ethan the Hero/Sprite/Environment/BackGround.png
-  uploadId: 572369

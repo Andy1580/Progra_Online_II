@@ -12,7 +12,7 @@ GameObject:
   - component: {fileID: 8514012616669670912}
   - component: {fileID: 3654698584528056620}
   m_Layer: 0
-  m_Name: Ethan
+  m_Name: Ethan Sprite
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0

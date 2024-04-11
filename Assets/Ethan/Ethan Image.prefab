@@ -13,7 +13,7 @@ GameObject:
   - component: {fileID: 6957333522025334225}
   - component: {fileID: 1430232333363736599}
   m_Layer: 5
-  m_Name: Ethan_UI
+  m_Name: Ethan Image
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0

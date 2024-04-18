@@ -1,10 +1,13 @@
 fileFormatVersion: 2
-guid: ee5d31b99dc47864785ece8a1631f8f8
+guid: 5543a21f46feddd429c5f03e7dd7f730
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -5898572833816749705
-    second: Marco_0
+      213: -6120643740681184852
+    second: Hero_Andy_Icon_Ok_0
+  - first:
+      213: -8245935954411621009
+    second: Hero_Andy_Icon_Ok_1
   externalObjects: {}
   serializedVersion: 12
   mipmaps:
@@ -37,7 +40,7 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: 1
+    filterMode: 0
     aniso: 1
     mipBias: 0
     wrapU: 1
@@ -46,7 +49,7 @@ TextureImporter:
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 2
+  spriteMode: 1
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
@@ -94,26 +97,38 @@ TextureImporter:
     overridden: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Windows Store Apps
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Marco_0
+      name: Hero_Andy_Icon_Ok_0
       rect:
         serializedVersion: 2
         x: 0
         y: 0
-        width: 129
-        height: 129
+        width: 128
+        height: 128
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 7795596724f042ea0800000000000000
-      internalID: -5898572833816749705
+      spriteID: b8a2d45c220436444bd8dd92726d3418
+      internalID: 385155710
       vertices: []
       indices: 
       edges: []
@@ -121,7 +136,7 @@ TextureImporter:
     outline: []
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: 7f6046248d2c5754cb559e5174e0faad
     internalID: 0
     vertices: []
     indices: 
@@ -129,7 +144,7 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      Marco_0: -5898572833816749705
+      Hero_Andy_Icon_Ok_0: 385155710
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

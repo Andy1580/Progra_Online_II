@@ -193,6 +193,14 @@ public class ControlLobby : MonoBehaviourPunCallbacks
 
     }
 
+    //Este metodo se ejecuta cuando cambias las propiedades de un Jugador
+    public override void OnPlayerPropertiesUpdate(Player targetPlayer, Hashtable changedProps)
+    {
+
+        ActualizarPersonaje(targetPlayer);
+
+    }
+
     #endregion PHOTON
 
     #region PANEL SLOTS JUGADOR
@@ -355,6 +363,53 @@ public class ControlLobby : MonoBehaviourPunCallbacks
     }
 
     #endregion Chat
+
+    #region Personajes
+
+    public static void SeleccionarPersonaje(Lobby_SlotPersonaje slot)
+    {
+
+        //Obtenemos el nombre del personaje
+        string nombre = slot.gameObject.name;
+
+        //Obtenemos las propiedades de nuestro user online
+        var propiedades = PhotonNetwork.LocalPlayer.CustomProperties;
+
+        //Le asiganmos el personaje
+        propiedades["Personaje"] = nombre;
+
+        //Aplicamos los cambios
+        PhotonNetwork.LocalPlayer.SetCustomProperties(propiedades);
+
+    }
+
+    private void ActualizarPersonaje(Player player)
+    {
+
+        //Si aun no ha elegido personaje
+        if (!player.CustomProperties.ContainsKey("Personaje"))
+            return;
+
+        //Obtenemos la ruta del Prefab del personaje
+        string nombre = player.CustomProperties["Personaje"].ToString();
+        string ruta = nombre + "/" + nombre + "Image";
+
+        //Obtenemos la referencia del Prefab
+        GameObject pfPersonaje = Resources.Load<GameObject>(ruta);
+
+        //Obtenemos el Slot del Player
+        Lobby_SlotJugador slot = slotsJugador[player];
+
+        //Si ya tenia una Image, lo eliminamos
+        if (slot.SlotPersonaje.childCount > 0)
+            Destroy(slot.SlotPersonaje.GetChild(0).gameObject);
+
+        //Lo instanciamos
+        Instantiate(pfPersonaje, slot.SlotPersonaje);
+
+    }
+
+    #endregion Personajes
 
     #endregion PANEL SELECCION
 

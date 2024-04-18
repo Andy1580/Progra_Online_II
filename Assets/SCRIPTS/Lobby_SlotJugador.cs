@@ -1,13 +1,16 @@
 using System.Collections;
 using System.Collections.Generic;
-using UnityEngine;
 using Photon.Realtime;
 using TMPro;
+using UnityEngine;
+using UnityEngine.Serialization;
 
 public class Lobby_SlotJugador : MonoBehaviour
 {
 
     [SerializeField] private TMP_Text nickname;
+    [SerializeField] private Transform slotPersonaje;
+    public Transform SlotPersonaje => slotPersonaje;
 
     private Player _player;
 

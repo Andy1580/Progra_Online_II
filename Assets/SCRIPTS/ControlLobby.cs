@@ -221,6 +221,7 @@ public class ControlLobby : MonoBehaviourPunCallbacks
         foreach(Player player in jugadorEnSala.Values)
         {
             Crear_SlotJugador(player);
+            ActualizarPersonaje(player);
         }
 
     }
@@ -392,7 +393,7 @@ public class ControlLobby : MonoBehaviourPunCallbacks
 
         //Obtenemos la ruta del Prefab del personaje
         string nombre = player.CustomProperties["Personaje"].ToString();
-        string ruta = nombre + "/" + nombre + "Image";
+        string ruta = nombre + $"Personajes/{nombre}/{nombre}Image";
 
         //Obtenemos la referencia del Prefab
         GameObject pfPersonaje = Resources.Load<GameObject>(ruta);

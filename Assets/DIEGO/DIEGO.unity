@@ -423,7 +423,7 @@ GameObject:
   - component: {fileID: 117077543}
   - component: {fileID: 117077542}
   m_Layer: 5
-  m_Name: Slot Personaje (3)
+  m_Name: MedievalKing
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -464,6 +464,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e14b9bb7d5ce3f745b4b6513860a8935, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  personaje: {fileID: 1896421203}
 --- !u!114 &117077543
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -529,7 +530,7 @@ GameObject:
   - component: {fileID: 142651532}
   - component: {fileID: 142651531}
   m_Layer: 5
-  m_Name: Slot Personaje (6)
+  m_Name: Zero
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -570,6 +571,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e14b9bb7d5ce3f745b4b6513860a8935, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  personaje: {fileID: 1669520590}
 --- !u!114 &142651532
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -635,7 +637,7 @@ GameObject:
   - component: {fileID: 184197562}
   - component: {fileID: 184197561}
   m_Layer: 5
-  m_Name: Slot Personaje (2)
+  m_Name: HeroKnight
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -676,6 +678,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e14b9bb7d5ce3f745b4b6513860a8935, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  personaje: {fileID: 1218548571}
 --- !u!114 &184197562
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1012,6 +1015,11 @@ RectTransform:
   m_CorrespondingSourceObject: {fileID: 306797048902479239, guid: 879ce426c7241c74d91a914df97bea73, type: 3}
   m_PrefabInstance: {fileID: 456671269}
   m_PrefabAsset: {fileID: 0}
+--- !u!95 &456671271 stripped
+Animator:
+  m_CorrespondingSourceObject: {fileID: 4816730567794995809, guid: 879ce426c7241c74d91a914df97bea73, type: 3}
+  m_PrefabInstance: {fileID: 456671269}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &503061758
 GameObject:
   m_ObjectHideFlags: 0
@@ -1026,7 +1034,7 @@ GameObject:
   - component: {fileID: 503061761}
   - component: {fileID: 503061760}
   m_Layer: 5
-  m_Name: Slot Personaje (1)
+  m_Name: Ethan
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1067,6 +1075,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e14b9bb7d5ce3f745b4b6513860a8935, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  personaje: {fileID: 2051126355}
 --- !u!114 &503061761
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1151,7 +1160,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 0, y: 0.00006914898}
+  m_AnchoredPosition: {x: 0, y: 0.0000047173453}
   m_SizeDelta: {x: -25.86, y: 240.51}
   m_Pivot: {x: 0, y: 1}
 --- !u!1 &529284328
@@ -1168,7 +1177,7 @@ GameObject:
   - component: {fileID: 529284331}
   - component: {fileID: 529284330}
   m_Layer: 5
-  m_Name: Slot Personaje (4)
+  m_Name: Samurai
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1209,6 +1218,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e14b9bb7d5ce3f745b4b6513860a8935, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  personaje: {fileID: 926585297}
 --- !u!114 &529284331
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3157,6 +3167,11 @@ RectTransform:
   m_CorrespondingSourceObject: {fileID: 4932604651327924033, guid: f8b96fba2e178fb4cbb294c28edaa38d, type: 3}
   m_PrefabInstance: {fileID: 923361365}
   m_PrefabAsset: {fileID: 0}
+--- !u!95 &923361367 stripped
+Animator:
+  m_CorrespondingSourceObject: {fileID: 6525749468666810378, guid: f8b96fba2e178fb4cbb294c28edaa38d, type: 3}
+  m_PrefabInstance: {fileID: 923361365}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &926585295
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -3259,6 +3274,11 @@ RectTransform:
   m_CorrespondingSourceObject: {fileID: 6264703298331855237, guid: 71150f2397c9b684ca38efbc3f2dbc9a, type: 3}
   m_PrefabInstance: {fileID: 926585295}
   m_PrefabAsset: {fileID: 0}
+--- !u!95 &926585297 stripped
+Animator:
+  m_CorrespondingSourceObject: {fileID: 6974557129644734113, guid: 71150f2397c9b684ca38efbc3f2dbc9a, type: 3}
+  m_PrefabInstance: {fileID: 926585295}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &937450384
 GameObject:
   m_ObjectHideFlags: 0
@@ -3273,7 +3293,7 @@ GameObject:
   - component: {fileID: 937450389}
   - component: {fileID: 937450388}
   m_Layer: 5
-  m_Name: Slot Personaje
+  m_Name: Bucaneer
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -3352,6 +3372,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e14b9bb7d5ce3f745b4b6513860a8935, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  personaje: {fileID: 456671271}
 --- !u!114 &937450389
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4363,6 +4384,11 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1201375288}
   m_CullTransparentMesh: 1
+--- !u!95 &1218548571 stripped
+Animator:
+  m_CorrespondingSourceObject: {fileID: 2665644449088787731, guid: 063f119ba8de1aa418ff5925b9f7a66d, type: 3}
+  m_PrefabInstance: {fileID: 77119744}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1266032447
 GameObject:
   m_ObjectHideFlags: 0
@@ -4670,7 +4696,7 @@ MonoBehaviour:
   m_HandleRect: {fileID: 637947406}
   m_Direction: 2
   m_Value: 0
-  m_Size: 0.99955094
+  m_Size: 0.9999777
   m_NumberOfSteps: 0
   m_OnValueChanged:
     m_PersistentCalls:
@@ -5189,7 +5215,7 @@ GameObject:
   - component: {fileID: 1503990654}
   - component: {fileID: 1503990653}
   m_Layer: 5
-  m_Name: Slot Personaje (5)
+  m_Name: Warrior
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -5230,6 +5256,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e14b9bb7d5ce3f745b4b6513860a8935, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  personaje: {fileID: 923361367}
 --- !u!114 &1503990654
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -5777,6 +5804,11 @@ PrefabInstance:
 --- !u!224 &1669520589 stripped
 RectTransform:
   m_CorrespondingSourceObject: {fileID: 4445538853293306538, guid: de49c59d2b886af4c9eedb48d6e2eec2, type: 3}
+  m_PrefabInstance: {fileID: 1669520588}
+  m_PrefabAsset: {fileID: 0}
+--- !u!95 &1669520590 stripped
+Animator:
+  m_CorrespondingSourceObject: {fileID: 4633099517678065338, guid: de49c59d2b886af4c9eedb48d6e2eec2, type: 3}
   m_PrefabInstance: {fileID: 1669520588}
   m_PrefabAsset: {fileID: 0}
 --- !u!1 &1706749578
@@ -6925,6 +6957,11 @@ RectTransform:
   m_CorrespondingSourceObject: {fileID: 1643597025250187793, guid: 0934e3e39504946439801b6c53783a02, type: 3}
   m_PrefabInstance: {fileID: 1896421201}
   m_PrefabAsset: {fileID: 0}
+--- !u!95 &1896421203 stripped
+Animator:
+  m_CorrespondingSourceObject: {fileID: 8039332305766961234, guid: 0934e3e39504946439801b6c53783a02, type: 3}
+  m_PrefabInstance: {fileID: 1896421201}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1955125570
 GameObject:
   m_ObjectHideFlags: 0
@@ -7257,7 +7294,7 @@ GameObject:
   - component: {fileID: 1982995685}
   - component: {fileID: 1982995684}
   m_Layer: 5
-  m_Name: Image
+  m_Name: Fondo
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -7572,6 +7609,11 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2036996345}
   m_CullTransparentMesh: 1
+--- !u!95 &2051126355 stripped
+Animator:
+  m_CorrespondingSourceObject: {fileID: 1430232333363736599, guid: 7411c7af6e7f4184aac5821ef2e8a65f, type: 3}
+  m_PrefabInstance: {fileID: 2020545038}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
   m_ObjectHideFlags: 0

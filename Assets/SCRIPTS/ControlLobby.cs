@@ -393,7 +393,7 @@ public class ControlLobby : MonoBehaviourPunCallbacks
 
         //Obtenemos la ruta del Prefab del personaje
         string nombre = player.CustomProperties["Personaje"].ToString();
-        string ruta = nombre + $"Personajes/{nombre}/{nombre}Image";
+        string ruta = $"Personajes/{nombre}/{nombre} Image";
 
         //Obtenemos la referencia del Prefab
         GameObject pfPersonaje = Resources.Load<GameObject>(ruta);

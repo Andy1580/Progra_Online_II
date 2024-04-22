@@ -814,7 +814,7 @@ GameObject:
   - component: {fileID: 194911066}
   - component: {fileID: 194911065}
   m_Layer: 5
-  m_Name: Slot Personaje (2)
+  m_Name: HeroKnight
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -855,6 +855,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e14b9bb7d5ce3f745b4b6513860a8935, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  personaje: {fileID: 1820335501}
 --- !u!114 &194911066
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1489,7 +1490,7 @@ GameObject:
   - component: {fileID: 383064606}
   - component: {fileID: 383064605}
   m_Layer: 5
-  m_Name: Slot Personaje (7)
+  m_Name: Zero
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1530,6 +1531,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e14b9bb7d5ce3f745b4b6513860a8935, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  personaje: {fileID: 2086272558}
 --- !u!114 &383064606
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1881,7 +1883,7 @@ GameObject:
   - component: {fileID: 440151025}
   - component: {fileID: 440151024}
   m_Layer: 5
-  m_Name: Slot Personaje (5)
+  m_Name: Warrior
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1922,6 +1924,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e14b9bb7d5ce3f745b4b6513860a8935, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  personaje: {fileID: 1889417986}
 --- !u!114 &440151025
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1987,7 +1990,7 @@ GameObject:
   - component: {fileID: 463372601}
   - component: {fileID: 463372600}
   m_Layer: 5
-  m_Name: Slot Personaje (4)
+  m_Name: Samurai
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2028,6 +2031,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e14b9bb7d5ce3f745b4b6513860a8935, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  personaje: {fileID: 790934153}
 --- !u!114 &463372601
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2093,7 +2097,7 @@ GameObject:
   - component: {fileID: 469273676}
   - component: {fileID: 469273675}
   m_Layer: 5
-  m_Name: Slot Personaje (1)
+  m_Name: Ethan
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2134,6 +2138,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e14b9bb7d5ce3f745b4b6513860a8935, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  personaje: {fileID: 1841788207}
 --- !u!114 &469273676
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3933,6 +3938,11 @@ RectTransform:
   m_CorrespondingSourceObject: {fileID: 6264703298331855237, guid: 71150f2397c9b684ca38efbc3f2dbc9a, type: 3}
   m_PrefabInstance: {fileID: 790934151}
   m_PrefabAsset: {fileID: 0}
+--- !u!95 &790934153 stripped
+Animator:
+  m_CorrespondingSourceObject: {fileID: 6974557129644734113, guid: 71150f2397c9b684ca38efbc3f2dbc9a, type: 3}
+  m_PrefabInstance: {fileID: 790934151}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &814341711
 GameObject:
   m_ObjectHideFlags: 0
@@ -4163,6 +4173,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e14b9bb7d5ce3f745b4b6513860a8935, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  personaje: {fileID: 1804687060}
 --- !u!114 &814958515
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4563,7 +4574,7 @@ GameObject:
   - component: {fileID: 938122041}
   - component: {fileID: 938122040}
   m_Layer: 5
-  m_Name: Slot Personaje (3)
+  m_Name: MedievalKing
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -4604,6 +4615,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e14b9bb7d5ce3f745b4b6513860a8935, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  personaje: {fileID: 1907595642}
 --- !u!114 &938122041
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -5718,6 +5730,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e14b9bb7d5ce3f745b4b6513860a8935, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  personaje: {fileID: 1893714532}
 --- !u!114 &1293506010
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -5783,7 +5796,7 @@ GameObject:
   - component: {fileID: 1336669262}
   - component: {fileID: 1336669261}
   m_Layer: 5
-  m_Name: Slot Personaje
+  m_Name: Bucaneer
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -5824,6 +5837,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e14b9bb7d5ce3f745b4b6513860a8935, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  personaje: {fileID: 1381362310}
 --- !u!114 &1336669262
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -6335,6 +6349,11 @@ PrefabInstance:
 --- !u!224 &1381362309 stripped
 RectTransform:
   m_CorrespondingSourceObject: {fileID: 306797048902479239, guid: 879ce426c7241c74d91a914df97bea73, type: 3}
+  m_PrefabInstance: {fileID: 1381362308}
+  m_PrefabAsset: {fileID: 0}
+--- !u!95 &1381362310 stripped
+Animator:
+  m_CorrespondingSourceObject: {fileID: 4816730567794995809, guid: 879ce426c7241c74d91a914df97bea73, type: 3}
   m_PrefabInstance: {fileID: 1381362308}
   m_PrefabAsset: {fileID: 0}
 --- !u!1 &1470677297
@@ -7586,6 +7605,16 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1770473740}
   m_CullTransparentMesh: 1
+--- !u!95 &1804687060 stripped
+Animator:
+  m_CorrespondingSourceObject: {fileID: 4633099517678065338, guid: de49c59d2b886af4c9eedb48d6e2eec2, type: 3}
+  m_PrefabInstance: {fileID: 1736013949}
+  m_PrefabAsset: {fileID: 0}
+--- !u!95 &1820335501 stripped
+Animator:
+  m_CorrespondingSourceObject: {fileID: 2665644449088787731, guid: 063f119ba8de1aa418ff5925b9f7a66d, type: 3}
+  m_PrefabInstance: {fileID: 952770252}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1824120024
 GameObject:
   m_ObjectHideFlags: 0
@@ -7845,6 +7874,11 @@ RectTransform:
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0, y: 0}
+--- !u!95 &1841788207 stripped
+Animator:
+  m_CorrespondingSourceObject: {fileID: 1430232333363736599, guid: 7411c7af6e7f4184aac5821ef2e8a65f, type: 3}
+  m_PrefabInstance: {fileID: 432730558}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &1848042310
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -8085,6 +8119,16 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1884084871}
   m_CullTransparentMesh: 1
+--- !u!95 &1889417986 stripped
+Animator:
+  m_CorrespondingSourceObject: {fileID: 6525749468666810378, guid: f8b96fba2e178fb4cbb294c28edaa38d, type: 3}
+  m_PrefabInstance: {fileID: 1131170226}
+  m_PrefabAsset: {fileID: 0}
+--- !u!95 &1893714532 stripped
+Animator:
+  m_CorrespondingSourceObject: {fileID: 4633099517678065338, guid: de49c59d2b886af4c9eedb48d6e2eec2, type: 3}
+  m_PrefabInstance: {fileID: 1848042310}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &1907595640
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -8185,6 +8229,11 @@ PrefabInstance:
 --- !u!224 &1907595641 stripped
 RectTransform:
   m_CorrespondingSourceObject: {fileID: 1643597025250187793, guid: 0934e3e39504946439801b6c53783a02, type: 3}
+  m_PrefabInstance: {fileID: 1907595640}
+  m_PrefabAsset: {fileID: 0}
+--- !u!95 &1907595642 stripped
+Animator:
+  m_CorrespondingSourceObject: {fileID: 8039332305766961234, guid: 0934e3e39504946439801b6c53783a02, type: 3}
   m_PrefabInstance: {fileID: 1907595640}
   m_PrefabAsset: {fileID: 0}
 --- !u!1 &1959008311
@@ -8493,6 +8542,11 @@ PrefabInstance:
 --- !u!224 &2086272557 stripped
 RectTransform:
   m_CorrespondingSourceObject: {fileID: 4445538853293306538, guid: de49c59d2b886af4c9eedb48d6e2eec2, type: 3}
+  m_PrefabInstance: {fileID: 2086272556}
+  m_PrefabAsset: {fileID: 0}
+--- !u!95 &2086272558 stripped
+Animator:
+  m_CorrespondingSourceObject: {fileID: 4633099517678065338, guid: de49c59d2b886af4c9eedb48d6e2eec2, type: 3}
   m_PrefabInstance: {fileID: 2086272556}
   m_PrefabAsset: {fileID: 0}
 --- !u!1 &2116061809
